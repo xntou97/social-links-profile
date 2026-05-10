@@ -81,3 +81,35 @@
      display: flex;
      flex-direction: column;
  }
+
+ @media (min-width: 1220px) {
+     main {
+         width: 24rem;
+     }
+
+     .social_link {
+         padding: 0.8rem 5.5rem 0.8rem 5.5rem;
+     }
+
+     .location {
+         margin: 0 0 1.5rem 0;
+     }
+
+     .social_link:nth-child(1) {
+         margin: 0.25rem 1.5rem 0.5rem 1.5rem;
+     }
+
+     .social_link:nth-child(2) {
+         text-wrap: nowrap;
+     }
+
+     .social_link:hover {
+         border: 1px solid hsl(75, 94%, 57%);
+         background-color: hsl(75, 94%, 57%);
+         color: hsl(0, 0%, 8%);
+     }
+
+     .avatar {
+         margin-top: 2rem;
+     }
+ }
